@@ -1,0 +1,56 @@
+*{
+    font-family: Roboto Mono;
+    position: relative;
+    outline: none;
+}
+
+
+iframe{
+    position: relative;
+}
+
+
+
+body{
+    background-color: black; 
+    color: white;
+    overflow-x: hidden;
+}
+
+.bgImg{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../BG.png");
+    background-size:contain;
+    background-position: center;
+    background-repeat:repeat;
+    position:absolute;
+
+}
+
+
+.lang{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-around;
+    margin: 2rem;
+}
+
+.QTable{
+    /* left: 10%; */
+    text-align: center;
+    
+}
+.QTable a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+.QTable td{
+    padding: 0.5rem;
+}
+
+
+
